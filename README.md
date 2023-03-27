@@ -36,10 +36,10 @@ hotel according to location and you can see it's detail on clicking any row.<br>
 
 ## Usage
 
-1. Clone the repository choosing main branch. For example, to check out the `main` branch:
+1. Clone the repository choosing main branch. For example, to check out the `master` branch:
 
 ```
-
+ https://github.com/saugatligal/canoointerview.git --branch master
 ```
 ## Future enhancements
 
