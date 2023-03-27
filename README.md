@@ -44,6 +44,8 @@ https://github.com/saugatligal/canoointerview.git --branch master
 ```
 ## Future enhancements
 
+I am mostly focusing on the way android application is develop and not spent more time on creating attractive UI for now.
+
 1. Loading list of hotels with limit and using paging library
 2. Adding search bar to search in the list
 3. Using jetpack compose to create UI
