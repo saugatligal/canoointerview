@@ -52,11 +52,10 @@ class HotelRepositoryImpl @Inject constructor(
                         it.id
                     )
                 })
-            } catch (exception: Exception) {
-                Log.d("TAG", "getHotelList: "+ exception.localizedMessage)
-                Result.Error(Constants.ERROR_MESSAGE)
             } catch (exception: UnknownHostException) {
                 Result.Error(Constants.NO_INTERNET_MESSAGE)
+            } catch (exception: Exception) {
+                Result.Error(Constants.ERROR_MESSAGE)
             }
         }
     }
@@ -68,10 +67,10 @@ class HotelRepositoryImpl @Inject constructor(
                 Result.Success(
                     client.getHotelDetail(hotelBody)
                 )
-            } catch (exception: Exception) {
-                Result.Error(Constants.ERROR_MESSAGE)
             } catch (exception: UnknownHostException) {
                 Result.Error(Constants.NO_INTERNET_MESSAGE)
+            } catch (exception: Exception) {
+                Result.Error(Constants.ERROR_MESSAGE)
             }
         }
     }

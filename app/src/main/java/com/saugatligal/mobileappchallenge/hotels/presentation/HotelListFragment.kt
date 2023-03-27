@@ -60,7 +60,6 @@ class HotelListFragment : Fragment() {
                 binding.progressBar.visibility = View.VISIBLE
                 binding.recyclerview.visibility = View.GONE
                 binding.errorText.visibility = View.GONE
-                Toast.makeText(activity, "LOADING", Toast.LENGTH_LONG).show()
             }
             is HotelListState.Content -> {
                 binding.progressBar.visibility = View.GONE
@@ -69,8 +68,6 @@ class HotelListFragment : Fragment() {
                 binding.recyclerview.layoutManager = LinearLayoutManager(activity)
                 binding.recyclerview.adapter = adapter
                 adapter.setData(viewState.hotelList)
-                Toast.makeText(activity, "LOADING", Toast.LENGTH_LONG).show()
-
             }
         }
     }
