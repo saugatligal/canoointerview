@@ -9,9 +9,10 @@ MobileAppChallenge (beta)
 
 ## Screenshots
 
-<img src="ScreenShot.png" alt="Screenshot">
-<img src="ScreenShot2.png" alt="Screenshot1">
-<img src="ScreenShot3.png" alt="Screenshot2">
+<img src="ss1.png" alt="Screenshot">
+<img src="ss2.png" alt="Screenshot1">
+<img src="ss3.png" alt="Screenshot2">
+<img src="ss4.png" alt="Screenshot2">
 
 ## Features
 
