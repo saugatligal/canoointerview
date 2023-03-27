@@ -32,8 +32,9 @@ hotel according to location and you can see it's detail on clicking any row.<br>
 * [Jetpack Navigation](https://developer.android.com/jetpack/compose/navigation)
 * [LiveData](https://developer.android.com/reference/android/arch/lifecycle/LiveData)
 * [Retrofit](https://square.github.io/retrofit/)
+* [Glide](https://github.com/bumptech/glide)
 * [Kotlin Coroutines](https://developer.android.com/kotlin/coroutines)
-* [Unit tests](https://developer.android.com/training/testing/local-tests)
+* [Unit tests](https://developer.android.com/training/testing/local-tests) 
 
 ## Usage
 
